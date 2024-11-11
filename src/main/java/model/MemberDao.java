@@ -13,8 +13,8 @@ public class MemberDao {
 	String pass = "JVM";
 	
 	//접속 url
-	String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=JSPTest;user=sa;password=JVM;trustServerCertificate=true;";
-
+	//String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=JSPTest;user=sa;password=JVM;trustServerCertificate=true;";
+	String connectionUrl = "jdbc:sqlserver://localhost\\sqlepxress:50678;databaseName=JSPTest;user=sa;password=JVM;trustServerCertificate=true;";
 	
 	Connection con; //데이터베이스에 접근할 수 있도록 설정
 	PreparedStatement pstmt; //데이터베이스에서 쿼리를 실행시켜주는 객체
